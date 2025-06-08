@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>gdg</title>
-        <meta name="robots" content="noindex">
+        <title>Chapter_3.1 - gdg</title>
 
 
         <!-- Custom HTML head -->
@@ -13,31 +12,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-        <link rel="stylesheet" href="./mdbook-admonish.css">
+        <link rel="stylesheet" href=".././mdbook-admonish.css">
 
     </head>
     <body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -90,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">part1</li><li class="chapter-item expanded "><a href="part1/chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/chapter_1.1.html"><strong aria-hidden="true">1.1.</strong> Chapter_1.1</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">part2</li><li class="chapter-item expanded "><a href="part2/chapter_2.1.html"><strong aria-hidden="true">2.</strong> Chapter_2.1</a></li><li class="chapter-item expanded "><a href="part2/chapter_2.2.html"><strong aria-hidden="true">3.</strong> Chapter_2.2</a></li><li class="chapter-item expanded affix "><li class="part-title">part3</li><li class="chapter-item expanded "><a href="part3/chapter_3.1.html"><strong aria-hidden="true">4.</strong> Chapter_3.1</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">part1</li><li class="chapter-item expanded "><a href="../part1/chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../part1/chapter_1.1.html"><strong aria-hidden="true">1.1.</strong> Chapter_1.1</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">part2</li><li class="chapter-item expanded "><a href="../part2/chapter_2.1.html"><strong aria-hidden="true">2.</strong> Chapter_2.1</a></li><li class="chapter-item expanded "><a href="../part2/chapter_2.2.html"><strong aria-hidden="true">3.</strong> Chapter_2.2</a></li><li class="chapter-item expanded affix "><li class="part-title">part3</li><li class="chapter-item expanded "><a href="../part3/chapter_3.1.html" class="active"><strong aria-hidden="true">4.</strong> Chapter_3.1</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -146,7 +145,7 @@
                     <h1 class="menu-title">gdg</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -175,107 +174,15 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="introduction"><a class="header" href="#introduction">introduction</a></h1>
-<ul>
-<li><a href="index.html#mdbook-admonish%E6%8F%92%E4%BB%B6">mdbook-admonish插件</a></li>
-<li><a href="index.html#toc%E4%BD%BF%E7%94%A8">toc使用</a></li>
-<li><a href="index.html#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">配置文件</a></li>
-</ul>
-<h3 id="mdbook-admonish插件"><a class="header" href="#mdbook-admonish插件">mdbook-admonish插件</a></h3>
-<p>如下展示：语言类型分别选择：</p>
-<p><code>admonish info,admonish warning,admonish danger,admonish example和admonish</code></p>
-<div id="admonition-info" class="admonition admonish-info" role="note" aria-labelledby="admonition-info-title">
-<div class="admonition-title">
-<div id="admonition-info-title">
-<p>Info</p>
-</div>
-<a class="admonition-anchor-link" href="index.html#admonition-info"></a>
-</div>
-<div>
-<p>A beautifully styled message.</p>
-</div>
-</div>
-<div id="admonition-warning" class="admonition admonish-warning" role="note" aria-labelledby="admonition-warning-title">
-<div class="admonition-title">
-<div id="admonition-warning-title">
-<p>Warning</p>
-</div>
-<a class="admonition-anchor-link" href="index.html#admonition-warning"></a>
-</div>
-<div>
-<p>A beautifully styled message.</p>
-</div>
-</div>
-<div id="admonition-danger" class="admonition admonish-danger" role="note" aria-labelledby="admonition-danger-title">
-<div class="admonition-title">
-<div id="admonition-danger-title">
-<p>Danger</p>
-</div>
-<a class="admonition-anchor-link" href="index.html#admonition-danger"></a>
-</div>
-<div>
-<p>A beautifully styled message.</p>
-</div>
-</div>
-<div id="admonition-example" class="admonition admonish-example" role="note" aria-labelledby="admonition-example-title">
-<div class="admonition-title">
-<div id="admonition-example-title">
-<p>Example</p>
-</div>
-<a class="admonition-anchor-link" href="index.html#admonition-example"></a>
-</div>
-<div>
-<p>A beautifully styled message.</p>
-</div>
-</div>
-<div id="admonition-note" class="admonition admonish-note" role="note" aria-labelledby="admonition-note-title">
-<div class="admonition-title">
-<div id="admonition-note-title">
-<p>Note</p>
-</div>
-<a class="admonition-anchor-link" href="index.html#admonition-note"></a>
-</div>
-<div>
-<p>A plain note.</p>
-</div>
-</div>
-<h3 id="toc使用"><a class="header" href="#toc使用">toc使用</a></h3>
-<p><code>&lt;!-- toc --&gt;</code></p>
-<h3 id="配置文件"><a class="header" href="#配置文件">配置文件</a></h3>
-<pre><code class="language-toml">[book]
-authors = ["wjy"]
-language = "zh-Hans"
-multilingual = true
-src = "src"
-title = "gdg"
-
-[preprocessor]
-
-
-[preprocessor.admonish]
-command = "mdbook-admonish"
-assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
-
-[output]
-
-[output.html]
-additional-css = ["./mdbook-admonish.css"]
-
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
-
-</code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chapter_11"><a class="header" href="#chapter_11">Chapter_1.1</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chapter_21"><a class="header" href="#chapter_21">Chapter_2.1</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chapter_22"><a class="header" href="#chapter_22">Chapter_2.2</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chapter_31"><a class="header" href="#chapter_31">Chapter_3.1</a></h1>
+                        <h1 id="chapter_31"><a class="header" href="#chapter_31">Chapter_3.1</a></h1>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part2/chapter_2.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
 
                         <div style="clear: both"></div>
@@ -284,6 +191,9 @@ renderer = ["html"]
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part2/chapter_2.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
             </nav>
 
@@ -297,21 +207,16 @@ renderer = ["html"]
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 
-        <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
 
     </div>
     </body>
